@@ -13,7 +13,8 @@ import psutil
 import pyromod
 from PIL import Image
 from pyrogram import Client, filters,enums
-from pyrogram.errors import (
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.errors import *
     FloodWait,
     InputUserDeactivated,
     PeerIdInvalid,
